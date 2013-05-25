@@ -16,5 +16,5 @@ Demo
 ====
 http://portzilla-pzwebapp.rhcloud.com/
 User login
-*username: admin
-*password: free
+* username: admin
+* password: free
