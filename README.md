@@ -14,3 +14,12 @@ Team
 3. Michael Kwasi Aninkora
 4. Nii Adjetey Sowah
 5. BIBI DZIFA TOMIWA
+
+Demo
+====
+Access a demo on the cloud at: http://portzilla-pzwebapp.rhcloud.com/
+
+Demo user login credentials
+===========================
+username: admin
+password: free

@@ -1,16 +1,52 @@
-<?php $this->pageTitle=Yii::app()->name; ?>
+<?php
+/* @var $this SiteController */
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+$this->pageTitle = Yii::app()->name;
+?>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+<h1>Welcome to <b><?php echo CHtml::encode(Yii::app()->name); ?></b></h1>
+<blockquote>
+    <?php if (!Yii::app()->user->isGuest): ?>
+        <small>You last logged in on </small>
+        <?php echo date('l, F d, Y, g:i a', Yii::app()->user->time_stamp); ?>.
+    <?php endif; ?>
+</blockquote>
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <tt><?php echo __FILE__; ?></tt></li>
-	<li>Layout file: <tt><?php echo $this->getLayoutFile('main'); ?></tt></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<div class="row-fluid">
+    <ul class="thumbnails">
+        <li class="thumbnail actions">                          
+            <?php echo CHtml::link("<i class='icon-group'></i><br/>
+                Manage Users", array('user/index')); ?>          
+        </li>
+        <li class="thumbnail actions">
+            <?php echo CHtml::link("<i class='icon-flag'></i><br/>
+                Manage Ports", array('port/index')); ?>
+        </li>
+        <li class="thumbnail actions">
+            <?php echo CHtml::link("<i class='icon-globe'></i><br/>
+                Manage Shipments", array('shipment/index')); ?>
+        </li>
+        <li class="thumbnail actions">
+            <?php echo CHtml::link("<i class='icon-link'></i><br/>
+                Manage Vessels", array('vessel/index')); ?>
+        </li>
+    </ul>
+    <ul class="thumbnails">
+        <li class="thumbnail actions">
+            <?php echo CHtml::link("<i class='icon-inbox'></i><br/>
+                Manage Containers", array('container/index')); ?>
+        </li>            
+        <li class="thumbnail actions">
+            <?php echo CHtml::link("<i class='icon-user'></i><br/>
+                Manage Shippers", array('shipper/index')); ?>
+        </li>
+        <li class="thumbnail actions">
+            <?php echo CHtml::link("<i class='icon-user'></i><br/>
+                Manage Agents", array('agent/index')); ?>
+        </li>
+        <li class="thumbnail actions">
+            <?php echo CHtml::link("<i class='icon-user'></i><br/>
+                Manage Consignees", array('consignee/index')); ?>
+        </li>        
+    </ul>
+</div>
