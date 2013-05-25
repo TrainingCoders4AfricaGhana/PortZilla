@@ -15,6 +15,6 @@ Team
 Demo
 ====
 http://portzilla-pzwebapp.rhcloud.com/
-User login
-* username: admin
-* password: free
+* User login
+  * username: admin
+  * password: free
