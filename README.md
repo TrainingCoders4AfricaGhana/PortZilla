@@ -9,17 +9,12 @@ customized for them.
 
 Team
 
-1. Elom Amavi D'ALMEIDA T.
-2. Ireke Onyike Didier
-3. Michael Kwasi Aninkora
-4. Nii Adjetey Sowah
-5. BIBI DZIFA TOMIWA
+1. Nii Adjetey Sowah
+2. BIBI DZIFA TOMIWA
 
 Demo
 ====
-Access a demo on the cloud at: http://portzilla-pzwebapp.rhcloud.com/
-
-Demo user login credentials
-===========================
-username: admin
-password: free
+http://portzilla-pzwebapp.rhcloud.com/
+User login
+*username: admin
+*password: free
