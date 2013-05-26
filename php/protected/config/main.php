@@ -49,7 +49,7 @@ return array(
          */
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=http://127.6.87.1;dbname=pz',
+            'connectionString' => 'mysql:host=127.6.87.1;dbname=pz',
             'emulatePrepare' => true,
             'username' => 'adminP7uRIvt',
             'password' => 'ByCl246j7mBs',
