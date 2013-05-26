@@ -1,0 +1,192 @@
+/*!
+ * Custom CSS for Yii & Bootstrap v1.0
+ * 25 April, 2013
+ * Designed and built with all the love in the world @_nadjetey
+ */
+
+body {
+    /*border-top: 10px solid 	#00BFFF;        
+    padding-top: 70px;       */
+    font-weight: 300;  
+    background-color: #f7f7f7;       
+    font-family: "Ubuntu Light",Arial,sans-serif;
+}
+
+#wrap > .container {
+    padding-top: 80px;    
+}
+
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.container-narrow > hr {
+    margin: 80px 0;
+}
+
+/* Top navigation menu */
+.navbar .brand {      
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;    
+}
+
+/* Custom login-form CSS */
+.login-form {
+    width: 500px;
+    padding: 30px 0 0 0;
+    margin: 60px auto 30px;
+    background: #fff;
+    box-shadow: 0 1px 6px #bbb;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 2px;
+}
+
+.login-form h1 {
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #222;
+    text-align: center;
+}
+
+.login-form .note {
+    color: #999;
+}
+
+.login-form p {
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #222;
+    text-align: center;
+}
+
+#login-well {    
+    text-align: center;
+}
+
+div.form .in-a-line label{
+    padding: 10px;
+    display: inline;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Reusing sort up/down arrays from YiiFramework */
+.table table.items th a.asc
+{
+    background:url(up.gif) right center no-repeat;
+    padding-right: 10px;
+}
+
+.table table.items th a.desc
+{
+    background:url(down.gif) right center no-repeat;
+    padding-right: 10px;
+}
+
+/* Side bar custom CSS */
+.sidenav li {
+
+}
+
+.portlet-decoration{
+    border-bottom: 1px dotted black;
+    margin-top: 30px;
+    padding: 5px 0 5px 0;
+    border-left: 5px solid #00a0d1;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+/* Footer fixed at the bottom of the page 
+#footer {  
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:20px;
+   width:100%;  
+}*/
+/* Sticky footer styles
+     -------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -30px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 20px;    
+}
+#footer {
+    /*background-color: black;*/
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    #wrap > .container {
+        padding-top: 0;    
+    }
+
+    #wrap {
+        margin: 0 auto 0;
+    }
+}
+
+/* Actions on dashboard*/
+.actions {
+    text-align: center;
+}
+
+.actions i {
+    color: black;
+    font-size: 100px;         
+}
+
+.actions :hover {
+    color: #b3d4fc;   
+}
+
+.actions a {
+    text-decoration: none;    
+}
+
+/* Header fonts */
+.navbar,
+h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.brand {
+  
+ }
