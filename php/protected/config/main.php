@@ -49,7 +49,7 @@ return array(
          */
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=https://portzilla-pzwebapp.rhcloud.com/phpmyadmin/;dbname=pz',
+            'connectionString' => 'mysql:host=https://portzilla-pzwebapp.rhcloud.com;dbname=pz',
             'emulatePrepare' => true,
             'username' => 'adminP7uRIvt',
             'password' => 'ByCl246j7mBs',
