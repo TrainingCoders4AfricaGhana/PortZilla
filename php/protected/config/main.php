@@ -49,10 +49,10 @@ return array(
          */
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=pz',
+            'connectionString' => 'mysql:host=https://portzilla-pzwebapp.rhcloud.com/phpmyadmin/;dbname=pz',
             'emulatePrepare' => true,
-            'username' => 'dev',
-            'password' => 'wp',
+            'username' => 'adminP7uRIvt',
+            'password' => 'ByCl246j7mBs',
             'charset' => 'utf8',
             'tablePrefix' => 'tbl_',
         ),
